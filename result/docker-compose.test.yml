@@ -45,7 +45,7 @@ services:
       - back-tier
 
   db:
-    image: postgres:9.4
+    image: docker.io/library/postgres:9.5
     environment:
       POSTGRES_USER: "postgres"
       POSTGRES_PASSWORD: "postgres"
